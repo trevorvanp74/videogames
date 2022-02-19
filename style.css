@@ -1,0 +1,43 @@
+body,
+html { 
+  width: 100%;
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  background: url(astro1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: #FFAC1C;
+}
+hr {
+    margin: 20px auto;
+    color: #FFAC1C;
+    border: 3px dotted #FFAC1C;
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer {
+  height: 10rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding:  1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #FFAC1C;
+  border-color: #FFAC1C;
+}
+.btn-primary:hover {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+  border-width: 4px;
+}
